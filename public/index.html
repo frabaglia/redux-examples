@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>simple redux app</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        section.main {
+            height: 100%;
+            width: 100%;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            flex: 1;
+            text-align: center;
+        }
+
+        span.buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="main">
+        <span class="center">
+          <h1>simple redux app</h1>
+          <span class="buttons">
+            <button id="increment">increment</button>
+            <button id="decrement">decrement</button>
+          </span>
+        </span>
+    </section>
+</body>
+
+</html>
