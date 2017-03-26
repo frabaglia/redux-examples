@@ -32,22 +32,26 @@ const reducer = (state = 0, action) => {
     switch (action.type) {
         case "INCREMENT":
             {
+                /* This is not the correct way */
                 state += 1
+                return state
                 break
             }
 
         case "DECREMENT":
             {
-                state -= 1
+                /* This is the correct way */
+                var _state = state - 1
+                return _state
                 break
             }
 
         default:
             {
                 console.log("@@redux/INIT or you fucked up?")
+                return state
             }
     }
-
     return state
 }
 
@@ -55,5 +59,6 @@ const store = createStore(reducer)
 
 store.subscribe(() => {
     console.log("STORE CHANGES!")
+    /* This is the way you get store data */
     console.log(store.getState())
 })
