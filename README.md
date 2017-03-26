@@ -1,10 +1,3 @@
-# Redux examples
+# Redux example
 
-### Redux simple example:
-
-git checkout simple
-
-### Redux + React simple example:
-
-git checkout react
-
+Simplest Redux example wrapped on create-react-app. This actually is not a React integration but the seed is useful to solve devops stuff.
