@@ -5,7 +5,7 @@ Simplest Redux example wrapped on create-react-app. This actually is not a React
 ## Hit and run
 
 - git clone GIT-URL-HERE && cd redux-examples
-- yarn install
+- yarn
 - npm start
 
 ## Meetup JSL Slides
