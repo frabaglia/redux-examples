@@ -4,9 +4,9 @@ Simplest Redux example wrapped on create-react-app. This actually is not a React
 
 ## Hit and run
 
-- git clone GIT-URL-HERE && cd redux-examples
-- yarn
-- npm start
+- git clone GIT-URL-HERE && cd redux-examples (clone and get into)
+- yarn (install dependencies)
+- npm start (run development enviroment)
 
 ## Meetup JSL Slides
 
